@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Page</title>
+</head>
+    <link rel="stylesheet" type="text/css" href="/css/reg.css" />
+<header>
+    <h2>Want to Create an Account?</h1>
+</header>
+<body>
+    <div class="form">
+        <form action="/register" method="POST" autocomplete="off">
+            <h1>
+                Create Account:
+            </h1>
+            <span>First Name:</span>
+            <input type="text" name="firstName" required/><br/>
+            <span>Last Name:</span>
+            <input type="text" name="lastName" required/><br/>
+            <span>Username:</span>
+            <input type="text" name="username" required/><br/>
+            <span>Email:</span>
+            <input type="email" name="email" required/><br/>
+            <span>Password:</span>
+            <input type="password" name="password" required/><br/>
+            <p></p>
+            <button type="submit">REGISTER</button><br>
+            <p></p>
+            <a href="/login">Login</a>
+        </form>
+    </div>
+    
+</body>
+</html>

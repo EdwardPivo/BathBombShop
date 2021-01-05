@@ -1,0 +1,220 @@
+header {
+  height: 50px;
+  top: 0;
+  align-items: center;
+  color: white;
+  background-color: black;
+  display: flex;
+  position: static;
+  z-index: 1;
+  margin: -8px;
+  margin-bottom: 2.5px;
+}
+
+body {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+body > h1 {
+  margin-top: 20px;
+}
+
+.product {
+  text-align: left;
+  width: 300px;
+  background-color: white;
+  border: gray 0.5px solid;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  margin-right: 50px;
+  margin-left: 50px;
+  max-height: 300px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.product:hover {
+  border-color: black;
+}
+
+.product > a {
+  margin-left: 220px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+a > button {
+  background-color: rgb(255, 169, 138);
+  border: 1px solid black;
+}
+
+a > button:hover {
+  cursor: pointer;
+}
+
+.product > img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.product > p {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.product > h3 {
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.search__bar {
+  outline: none;
+  border-style: hidden;
+  height: 25px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.search__bar:active {
+  outline: none;
+  border: none;
+}
+
+.bi-house-door {
+  margin-left: 10px;
+  color: white;
+}
+
+.prod_dis {
+  margin-top: -10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.seller_profile {
+  object-fit: contain;
+  position: relative;
+  margin-top: 50px;
+  border: 3px gray solid;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.seller_profile:hover {
+  height: 210px;
+  width: 210px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.logout__button {
+  position: static;
+  margin-left: 15px;
+  margin-right: 1px;
+  display: inline;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: solid black 2px;
+  width: 100%;
+}
+
+.search__icon {
+  outline: none;
+  background: none;
+  border: none;
+  margin-top: 3px;
+  margin-right: 0px;
+}
+
+.bi-search {
+  outline: none;
+  padding: 5px 5px 5px 5px;
+  height: 15px;
+  color: black;
+  background-color: white;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+
+.bi-cart3 {
+  margin-left: 20px;
+  display: inline;
+  border: solid 2px black;
+  padding: 4px 10px 4px 10px;
+}
+
+.bi-cart3:hover {
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+.bi-search:active {
+  height: 10px;
+  width: 10px;
+}
+
+.bi-search:hover {
+  cursor: pointer;
+}
+
+.logout__button:hover {
+  border: solid 2px white;
+  cursor: pointer;
+}
+
+.avatar {
+  position: static;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.mini__header {
+  height: 25px;
+  top: 0;
+  align-content: center;
+  color: white;
+  background-color: #242222;
+  display: flex;
+  position: static;
+}
+
+.mini__button {
+  outline: none;
+  color: lightgray;
+  background-color: gray;
+  border: none;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.mini__headerForm {
+  display: flex;
+  margin-left: 50px;
+}
+
+.mini__button_a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.mini__button_a:hover {
+  color: white;
+}
+
+a {
+  color: white;
+}

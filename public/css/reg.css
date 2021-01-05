@@ -1,0 +1,75 @@
+h1 {
+  color: black;
+}
+
+h2 {
+  margin-top: 200px;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+  display: inline;
+  background-color: whitesmoke;
+}
+a {
+  font-size: 4.4mm;
+  font-weight: normal;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkorange;
+}
+div.form {
+  display: block;
+  text-align: center;
+}
+form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  width: 250px;
+  position: static;
+  border: 5px solid black;
+}
+form input {
+  width: 97%;
+}
+img {
+  border-radius: 50%;
+}
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
